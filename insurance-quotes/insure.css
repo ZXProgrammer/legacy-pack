@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top_bar {
+    font-size: 16px;
+    font-family: 'Karla';
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_bar nav {
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.top_bar h1 {
+    margin-top: 25px;
+    font-family: 'Krona One';
+}
+
+.info_1,
+.info_2 {
+    color: rgb(123, 121, 121);
+}
+
+.info_4 {
+    color: #ffffff;
+    background-color: hsl(270, 9%, 17%);
+    padding: 1rem 1rem;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(18, 92px);
+    grid-template-rows: repeat(18, 92px);
+    color: #ffffff;
+    height: 75vh;
+    background-color: #28223A;
+}
+
+.hero hr {
+    background-color: #ffffff;
+    height: 1px;
+    width: 175px;
+    grid-area: 2 / 4 / 5 / 6; 
+}
+
+.hero h1 {
+    font-size: 75px;
+    grid-area: 3 / 4 / 6 /12;
+}
+
+.hero p {
+    font-family: 'Karla';
+    line-height: 1.5;
+    grid-area: 5 / 4 / 5 /12;
+}
+
+.hero .pattern_1 {
+    width: 250px;
+    grid-area: 6 / 5 / 7 / 1; 
+}
+
+.hero .pattern_2 {
+    width: 410px;
+    grid-area: 1 / 15 / 18 / 21; 
+}
+
+.hero button {
+    font-family: 'Karla';
+    font-size: 17px;
+    font-weight: 525;
+    color: hsl(270, 9%, 17%);
+    height: 50px;
+    width: 160px;
+    grid-area: 6 / 4; 
+}
+
+.hero .hero_img {
+    width: 650px;
+    grid-area: 2 / 11 ; 
+}
+
+.content {
+    padding: 100px 10%;
+    background-color: white;
+    text-align: center;
+}
+
+.content-header {
+    position: relative;
+    top: 230px;
+    left: 100px;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.content-header .line {
+    position: relative;
+    left: 5px;
+    width: 100px;
+    height: 1px;
+    background-color: rgb(83, 82, 82);
+}
+
+.content_info {
+    position: relative;
+    top: 50px;
+    right: 130px;
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+}
+
+.feature img {
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-family: 'Karla';
+    font-size: 16px;
+    color: #5a5a5a;
+    line-height: 1.6;
+}
+
+.purple_box {
+    margin-left: 250px;
+    display: grid;
+    grid-template-rows: repeat(18, 20px);
+    grid-template-columns: repeat(18, 20px);
+}
+
+.purple_box .additional_content p {
+    padding: 50px 50px;
+}
+
+.additional_content {
+    position: relative;
+    background-color: #2C2640;
+    color: #ffffff;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    height: 250px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    overflow: hidden;
+}
+
+.left-text p {
+    line-height: 1.2;
+}
+
+.how-we-work-btn {
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.pattern-how {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(29, 60px);
+    grid-template-rows: repeat(29, 60px);
+    height: 500px;
+    background-color: #fafafa;
+}
+
+footer h2 {
+    grid-area: 2 / 5;
+    font-family: 'Krona One';
+    font-size: 25px;
+}
+
+footer hr {
+    grid-area: 3 / 5;
+    height: 1px;
+    width: 1350px;
+}
+
+footer .footer_1{
+    font-family: 'Karla';
+    font-size: 20px;
+    font-weight: 500;
+    color: #5a5a5a;
+    white-space: nowrap;
+    grid-area: 4 / 5;
+    
+}
+
+footer .footer_2{
+    font-family: 'Karla';
+    font-size: 20px;
+    font-weight: 500;
+    color: #5a5a5a;
+    white-space: nowrap;
+    grid-area: 4 / 11;
+    
+}
+
+footer .footer_3{
+    font-family: 'Karla';
+    font-size: 20px;
+    font-weight: 500;
+    color: #5a5a5a;
+    grid-area: 4 / 16;
+    
+}
+
+footer .footer_4{
+    font-family: 'Karla';
+    font-size: 20px;
+    font-weight: 500;
+    color: #5a5a5a;
+    grid-area: 4 / 21;
+}
+
+footer .icon_1{
+   grid-area: 2 / 23;
+}
+
+footer .icon_2{
+    grid-area: 2 / 24;
+ }
+
+ footer .icon_3{
+    grid-area: 2 / 25;
+ }
+
+ footer .icon_4{
+    grid-area: 2 / 26;
+ }
+
+ .our-company {
+    font-family: 'Karla';
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    list-style-type: none;
+    grid-area: 5 / 5;
+    line-height: 2;
+ }
+
+ .help-me {
+    font-family: 'Karla';
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    list-style-type: none;
+    grid-area: 5 / 11;
+    line-height: 2;
+ }
+
+ .contacts {
+    font-family: 'Karla';
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    list-style-type: none;
+    grid-area: 5 / 16;
+    line-height: 2;
+ }
+
+ .others {
+    font-family: 'Karla';
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    list-style-type: none;
+    grid-area: 5 / 21;
+    line-height: 2;
+ }
