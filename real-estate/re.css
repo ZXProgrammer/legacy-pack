@@ -1,0 +1,308 @@
+body {
+    background-color: #ededed;
+}
+
+/* Top Bar */
+
+header {
+    display: flex;
+    margin-left: 40px;
+    gap: 1rem;
+}
+
+.top-bar {
+    font-family: 'Vazirmatn';
+    font-weight: 400;
+    font-size: 0.75rem;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    margin-right: 3px;
+    padding: 0.5rem 8rem 0.5rem 2rem;
+    position: relative;
+    z-index: 10;
+}
+
+.actions,
+.options {
+    font-size: 1.10rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.login,
+.sign-up {
+
+    font-family: 'Vazirmatn';
+    font-weight: 475;
+    font-size: 0.925rem;
+    color: #FFFFFF;
+    background-color: #7C67FF;
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+}
+
+
+/* Hero */
+
+.hero {
+    background-color: #7C67FF;
+    display: flex;
+    justify-content: space-between;
+    height: 783px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.hero div {
+    margin-top: 8rem;
+    margin-left: 6rem;
+    line-height: 0.933;
+}
+
+.hero .discover {
+    font-family: 'Vazirmatn';
+    font-weight: 700;
+    font-size: 8.5rem;
+    color: #FFFFFF;
+}
+
+.hero .your-ideal {
+    font-family: 'Vazirmatn';
+    font-weight: 700;
+    font-size: 7.2rem;
+    color: #FFFFFF;
+}
+
+.hero .hero_image {
+    position: relative;
+    right: 120px;
+}
+
+.hero .property {
+    font-family: 'Vazirmatn';
+    font-weight: 700;
+    font-size: 7.75rem;
+    background-color: #FBB13C;
+    color: #000;
+    line-height: 1.3;
+}
+
+.hero h4 {
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* Filters */
+
+.content {
+    font-family: 'Inter';
+    font-size: 5rem;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 25rem;
+    border-radius: 25px;
+    height: 134px;
+    width: 966px;
+    z-index: 1;
+}
+
+.filters {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+.filters .last {
+    color: #F9F9F9;
+    background-color: #7C67FF;
+    padding: 25px 50px 25px 50px;
+    border-radius: 20px;
+}
+
+.filter_1,
+.filter_2,
+.filter_3,
+.filter_4 {
+    font-size: 1rem;
+    opacity: 60%;
+}
+
+/* Card 1 */
+
+.card_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: "center";
+}
+
+.card_1,
+.card_2 {
+    font-family: 'Vazirmatn';
+    font-size: 1rem;
+    background-color: #F9F9F9;
+    background-color: #F9F9F9;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    gap: 25px;
+    width: 586px;
+    height: 200px;
+
+}
+
+.card_1_img {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 155px;
+}
+
+.map {
+    position: relative;
+    bottom: 215px;
+    left: 225px;
+}
+
+.map_info {
+    position: relative;
+    bottom: 175px;
+    left: 280px;
+}
+
+.bed {
+    position: relative;
+    bottom: 260px;
+    left: 220px;
+}
+
+.bed_info {
+    position: relative;
+    bottom: 215px;
+    left: 280px;
+}
+
+.sf {
+    position: relative;
+    bottom: 360px;
+    left: 400px;
+}
+
+.sf_info {
+    position: relative;
+    bottom: 315px;
+    left: 450px;
+}
+
+.price {
+    position: relative;
+    bottom: 350px;
+    left: 225px;
+}
+
+.buy {
+    position: relative;
+    bottom: 400px;
+    left: 420px;
+    color: #F9F9F9;
+    background-color: #7C67FF;
+    padding: 10px 0 5px 0;
+    width: 40px;
+    border-radius: 17px;
+    padding: 0.75rem 1.4rem;
+}
+
+/* Card 2 */
+
+.card_2_img {
+    position: relative;
+    top: 20px;
+    left: 400px;
+    height: 160px;
+}
+
+.card_2_info {
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+
+.country_1 {
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+
+.country_2 {
+    position: relative;
+    bottom: 178px;
+    left: 200px;
+}
+
+.country_3 {
+    position: relative;
+    bottom: 165px;
+    left: 50px;
+}
+
+.country_4 {
+    position: relative;
+    bottom: 190px;
+    left: 205px;
+}
+
+.card_2_ad_info {
+    position: relative;
+    bottom: 200px;
+    left: 60px;
+    color: red;
+}
+
+/* Center Logo */
+
+.center_logo {
+    font-family: 'Vazirmatn';
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.real_estate_logo {
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+}
+
+.sub_heading {
+    font-family: 'Vazirmatn';
+    font-weight: 400;
+    font-size: 0.86rem;
+    color: #b5b5b5;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
