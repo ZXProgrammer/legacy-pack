@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <!-- Much smaller outer circle (r=20) -->
+  <circle cx="36" cy="36" r="20" fill="none" stroke="#F0E6FC" stroke-width="4"/>
+  <!-- Play icon remains the same -->
+  <path d="M28 23 L28 49 L49 36 Z"
+        fill="none" stroke="#F0E6FC" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
